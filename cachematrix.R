@@ -5,7 +5,7 @@
     # if the inverse has already been calculated then it retrieves 
     # the inverse from the cache
 ## Example of use
-    # > xMat[1,1]<-2
+    # > xMat <- matrix(1:4,2,2)
     # > x <- makeCacheMatrix(xMat)
     # > cacheSolve(x)
     # > x$getInverse()
